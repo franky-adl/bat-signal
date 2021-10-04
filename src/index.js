@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
 
-import { addAmbientLighting, addSky, dumpObject, createSpotLight, createSpotLightRepr, createCylinder } from './common';
+import { addAmbientLighting, addSky, dumpObject, createSpotLight, createSpotLightRepr, createCylinder } from './utils';
 import { addCameraGUI, updateCameraLookat } from './dat-gui';
 import BatmanLogo from './gltf/out.glb'
 
